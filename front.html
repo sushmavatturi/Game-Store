@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Store</title>
+  <link rel="stylesheet" href="Fstyle.css">
+</head>
+<body>
+  <header>
+    <h1>Game Store</h1>
+  </header>
+  <div class="game-container">
+    <div class="game-card" onclick="openGame('tic-tac-toe')">
+      <img src="tic-tac-toe.jpg" alt="Tic Tac Toe">
+      <h2>Tic Tac Toe</h2>
+    </div>
+    <div class="game-card" onclick="openGame('typing-speed')">
+      <img src="type-speed.jpg.webp" alt="Typing Speed">
+      <h2>Typing Speed</h2>
+    </div>
+    <div class="game-card" onclick="openGame('sudoku')">
+      <img src="sudoku.png" alt="Sudoku Solver">
+      <h2>Sudoku Solver</h2>
+    </div>
+  </div>
+
+  <script src="Fscript.js"></script>
+</body>
+</html>

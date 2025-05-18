@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Game</title>
+    <link rel="stylesheet" href="TSstyles.css">
+    <script src="TypingSpeed.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Typing Speed Test</h1>
+        <p>Type each sentence as it appears:</p>
+        <div class="sentence-container">
+            <p id="originalSentence" class="sentence"></p>
+        </div>
+        <textarea id="userSentence" placeholder="Type here..." rows="4"></textarea>
+        <button onclick="calculateTypingSpeed()">Submit</button>
+        <button onclick="startTypingTest()">Start Again</button>
+
+        <p id="wpm"></p>
+        <p id="time"></p>
+        <p id="accuracy"></p>
+    </div>
+</body>
+</html>
